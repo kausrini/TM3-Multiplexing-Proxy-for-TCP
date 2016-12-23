@@ -107,6 +107,7 @@ them over the pipe to LP.
 \reason" field in the FIN message.
 • When the connection is closed by the server, send a FIN message to LP. Set the \reason" field
 correspondingly based on how the connection is closed (0x88 for FIN and 0x99 for RST).
+
 Level 2: Sequential Application Connections over Multiple Pipes
 At this level, your RP needs to support multiple pipes. A single application TCP connection is
 multiplexed onto multiple pipes
